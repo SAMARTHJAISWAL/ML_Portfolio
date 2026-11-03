@@ -1,0 +1,15 @@
+# Tested with Python 3.12 (versions in comments are the ones the notebooks were last run with).
+numpy>=1.26          # 2.5.4
+pandas>=2.2          # 3.1.0
+matplotlib>=3.8      # 3.11.2
+seaborn>=0.13        # 0.13.2
+scikit-learn>=1.4    # 1.9.1
+plotly>=5            # 7.1.0  (imported in Clustering)
+torch>=2.2           # 2.15.0 (Linear_regression_model)
+tensorflow>=2.16     # 2.21.0 / Keras 3.15 (Fashion_MNIST_CNN)
+visualkeras>=0.1     # 0.2.0
+xgboost>=2.0         # 3.4.1  (Crypto_Analysis; macOS needs `brew install libomp`)
+statsmodels>=0.14    # 0.15.0 (Crypto_Analysis)
+opencv-python>=4.8,<5  # 4.14.0 (Age_and_Gender_Detection; OpenCV 5 dropped cv2.CascadeClassifier)
+gdown>=5             # 6.5.1  (downloads the age/gender model weights)
+jupyter
