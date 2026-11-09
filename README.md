@@ -93,3 +93,7 @@ jupyter notebook
 
 Python, Jupyter / Google Colab, pandas, NumPy, scikit-learn, Matplotlib, seaborn, Plotly, TensorFlow/Keras,
 PyTorch, XGBoost, statsmodels, OpenCV.
+
+## Licence
+
+[MIT](LICENSE) © 2023–2026 Samarth Jaiswal
